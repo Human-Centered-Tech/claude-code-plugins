@@ -1,0 +1,10 @@
+{
+  "name": "hct-shared-skills",
+  "version": "1.0.0",
+  "description": "Shared Claude Code skills for the Human-Centered-Tech team",
+  "author": {
+    "name": "Human-Centered-Tech"
+  },
+  "repository": "https://github.com/Human-Centered-Tech/claude-code-plugins",
+  "keywords": ["nestjs", "angular", "code-review", "hct"]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "hct-marketplace",
+  "owner": {
+    "name": "Human-Centered-Tech"
+  },
+  "plugins": [
+    {
+      "name": "hct-shared-skills",
+      "source": ".",
+      "description": "Shared Claude Code skills for the Human-Centered-Tech team",
+      "version": "1.0.0"
+    }
+  ]
+}
