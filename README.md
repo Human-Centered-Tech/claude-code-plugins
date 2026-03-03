@@ -17,6 +17,17 @@ The goal of this repo is to host a Claude Code plugin which can enable us to sha
 |-------|-------------|
 | `cross-platform` | Audit and fix a Node.js project for cross-platform compatibility (Windows + macOS + Linux) |
 
+## Operational Notes
+
+### Railway Custom Domain Setup
+
+When provisioning a custom domain on Railway, you need **both** DNS records:
+
+1. **CNAME record** — Point your subdomain to the Railway-provided target (e.g., `0mxhr5ec.up.railway.app`). Note: this target differs from your service's default `*.up.railway.app` domain.
+2. **TXT verification record** — Railway requires a TXT record for domain ownership verification. Without it, the Let's Encrypt SSL certificate will not provision and you'll get SSL errors. Check the Railway dashboard for the exact TXT record value after adding the custom domain.
+
+SSL certs typically provision within minutes once both records are in place and DNS has propagated. You can flush Google's DNS cache at `https://dns.google/cache` if needed.
+
 ## Contributing
 
 1. Clone this repo
