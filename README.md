@@ -16,6 +16,9 @@ The goal of this repo is to host a Claude Code plugin which can enable us to sha
 | Skill | Description |
 |-------|-------------|
 | `cross-platform` | Audit and fix a Node.js project for cross-platform compatibility (Windows + macOS + Linux) |
+| `health-check-authwall` | Fix deploy health checks that fail against auth-protected apps (302/307 redirects) |
+| `mock-database-drizzle` | In-memory mock database pattern for testing Drizzle ORM services without Postgres |
+| `nestjs-scoped-api-keys` | Add scoped API key auth alongside session auth in NestJS (hashing, guards, project scoping) |
 
 ## Operational Notes
 
