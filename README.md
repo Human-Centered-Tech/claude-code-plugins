@@ -19,6 +19,7 @@ The goal of this repo is to host a Claude Code plugin which can enable us to sha
 | `health-check-authwall` | Fix deploy health checks that fail against auth-protected apps (302/307 redirects) |
 | `mock-database-drizzle` | In-memory mock database pattern for testing Drizzle ORM services without Postgres |
 | `nestjs-scoped-api-keys` | Add scoped API key auth alongside session auth in NestJS (hashing, guards, project scoping) |
+| `postgres-best-practices` | Reference guide and audit checklist for PostgreSQL schema design, query performance, operations, and security |
 
 ## Operational Notes
 
