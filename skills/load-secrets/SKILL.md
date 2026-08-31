@@ -1,3 +1,12 @@
+---
+name: load-secrets
+description: >-
+  Load HCT project secrets from Vaultwarden into environment variables without exposing the values in
+  the terminal or the transcript. Use when starting work on an HCT project that needs API keys,
+  database credentials or other secrets, when switching between projects or environments, or when
+  setting up a new development machine.
+---
+
 # Load Secrets from Vaultwarden
 
 Load project secrets from HCT's Vaultwarden instance into local environment variables — safely, without exposing values to the LLM or terminal output.

@@ -1,3 +1,11 @@
+---
+name: onboard-team-member
+description: >-
+  Create accounts for a new team member across HCT's self-hosted services in one command. Use when a
+  developer, contractor or consultant joins the team and needs access to HCT internal tools such as
+  tasks, files, vault, video and booking.
+---
+
 # Onboard a New Team Member
 
 Create accounts across all HCT self-hosted services for a new team member in one command.

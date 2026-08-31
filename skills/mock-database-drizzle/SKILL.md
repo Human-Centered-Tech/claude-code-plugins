@@ -1,3 +1,11 @@
+---
+name: mock-database-drizzle
+description: >-
+  Build an in-memory mock of a Drizzle ORM database that supports its chainable query API. Use when
+  writing unit or integration tests for NestJS services that use Drizzle and you want to verify
+  inserts, updates and deletes without running a real Postgres instance.
+---
+
 # Mock Database for Drizzle ORM
 
 Pattern for building an in-memory mock of a Drizzle database for unit and integration tests in NestJS projects. Eliminates the need for a real database in tests while supporting Drizzle's chainable query API.

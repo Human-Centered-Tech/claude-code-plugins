@@ -1,3 +1,12 @@
+---
+name: health-check-authwall
+description: >-
+  Fix deploy health checks that fail against an application behind an authentication wall. Use when a
+  health check reports a deploy as failed but the app is visibly working, when a check receives a 302,
+  307 or 308 redirect to a login page instead of a 200, or when configuring health checks for GitHub
+  Actions, Railway, Vercel or any other CI/CD pipeline.
+---
+
 # Health Check Auth Wall
 
 Audit and fix deploy health checks for applications behind an authentication wall.
