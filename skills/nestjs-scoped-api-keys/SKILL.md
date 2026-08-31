@@ -1,3 +1,11 @@
+---
+name: nestjs-scoped-api-keys
+description: >-
+  Add scoped API key authentication alongside existing session auth in NestJS, covering key hashing,
+  guards, per-key roles and project scoping. Use when adding programmatic, agent or webhook access to
+  a NestJS application that currently only supports browser sessions.
+---
+
 # NestJS Scoped API Keys
 
 Pattern for adding scoped API key authentication to a NestJS application that already uses session-based auth (e.g., SuperTokens, Passport). Supports per-key roles, project scoping, and coexistence with existing auth guards.

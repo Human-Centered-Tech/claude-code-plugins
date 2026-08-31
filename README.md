@@ -18,8 +18,10 @@ The goal of this repo is to host a Claude Code plugin which can enable us to sha
 | `cross-platform` | Audit and fix a Node.js project for cross-platform compatibility (Windows + macOS + Linux) |
 | `explain` | Explain a concept, mechanism, or piece of code in clear, concise language, end to end |
 | `health-check-authwall` | Fix deploy health checks that fail against auth-protected apps (302/307 redirects) |
+| `load-secrets` | Load project secrets from HCT's Vaultwarden into environment variables, without exposing the values |
 | `mock-database-drizzle` | In-memory mock database pattern for testing Drizzle ORM services without Postgres |
 | `nestjs-scoped-api-keys` | Add scoped API key auth alongside session auth in NestJS (hashing, guards, project scoping) |
+| `onboard-team-member` | Create accounts across all HCT self-hosted services for a new team member in one command |
 | `postgres-best-practices` | Reference guide and audit checklist for PostgreSQL schema design, query performance, operations, and security |
 
 ## Operational Notes
